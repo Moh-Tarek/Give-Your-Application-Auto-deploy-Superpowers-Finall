@@ -16,7 +16,7 @@
 
 - name: "Executing Node app with PM2"
   shell: |
-    cds ~/backedn-app/dist
+    cd ~/backedn-app/dist
     pm2 stop default
     pm2 start main.js
 
